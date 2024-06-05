@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--! Navbar Start  -->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <img src="img/logo.png" alt="" class="logo" />
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Ana Sayfa</li>
+            <li class="menu-list-item">Filmler</li>
+            <li class="menu-list-item">Diziler</li>
+            <li class="menu-list-item">Listem</li>
+            <li class="menu-list-item">Popüler</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profile-picture" src="img/profil foto.jpg" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">Hesabım</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-regular fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--! Navbar End  -->
+
+    <!--! Sidebar Start -->
+    <div class="sidebar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-house"></i>
+      <i class="fa-solid fa-user-group"></i>
+      <i class="fa-regular fa-bookmark"></i>
+      <i class="fa-solid fa-hourglass-start"></i>
+      <i class="fa-solid fa-cart-arrow-down"></i>
+      <i class="fa-solid fa-gear"></i>
+    </div>
+    <!--! Sidebar End -->
+
+    <!--! Content start  -->
+    <div class="container">
+      <!--! featured content start -->
+      <div class="content-wrapper">
+        <div class="featured-content">
+          <img class="featured-title" src="img/Avatar_Logo.png" alt="" />
+          <p class="featured-desc">
+            Türkiye'nin en hızlı hd film izleme sitesi. En yeni, en kaliteli, en
+            yüksek IMDB puanlı filmleri, tek parça halinde buradan
+            izleyebilirsiniz. Arşivimizde son 10 yılın en kaliteli filmleri
+            ağırlıklı olarak 1080p Full HD kalitededir. Hepsi özenle seçilmiş
+            tarafımızca riplenmiş sizlerin izlemesi ve indirmesi için gerekli
+            teknik altyapı tarafımızca sağlanmıştır. Film izleme siteleri
+            arasında 1080p Full HD yapıp bu kalitede izleme ve indirme olanığını
+            sağlayan ilk sitedir. Filmlerimizi net hızınıza veya internet
+            kotanıza göre dilediğiniz kalitede izleyebilirsibiz.
+          </p>
+          <div class="featured-buttons">
+            <button class="play-button">
+              <i class="fa-regular fa-circle-play"></i>
+              Oynat
+            </button>
+            <button class="info-button">
+              <i class="fa-solid fa-circle-info"></i>
+              Daha Fazla Bilgi
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--! featured content end -->
+
+      <!--! filter start -->
+      <div class="movie-list-filter">
+        <select>
+          <option>Aksiyon</option>
+          <option>Animasyon</option>
+          <option>Belgesel</option>
+          <option>Komedi</option>
+          <option>Bilim Kurgu</option>
+        </select>
+      </div>
+      <!--! filter end -->
+
+      <!--? Movie List Start -->
+      <!-- Popular Movie List Start -->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Popüler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f1.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">AVATAR - 2</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f2.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">RECEP İVEDİK - 7</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f3.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">JOHN WİCK - 4</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f4.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">KARAYİP KORSANLARI - 4</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f5.png" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">FORREST GUMP</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f8.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">AQUAMAN - 2</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f7.png" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">DİRİLİŞ</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="fa-solid fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <!-- Popular Movie List End -->
+
+      <!-- Current Affairs Movie List Start -->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Gündemdekiler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f8.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">AQUAMAN - 2</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f7.png" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">DİRİLİŞ</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f6.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">HAYALET SÜRÜCÜ</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f5.png" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">FORREST GUMP</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f3.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">JOHN WİCK - 4</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f2.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">RECEP İVEDİK - 7</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f4.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">KARAYİP KORSANLARI - 4</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="fa-solid fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <!-- Current Affairs Movie List End -->
+
+      <!-- New Movie List Start -->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f7.png" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">DİRİLİŞ</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f3.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">JOHN WİCK - 4</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f4.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">KARAYİP KORSANLARI - 4</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f2.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">RECEP İVEDİK - 7</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f1.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">AVATAR - 2</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f8.jpg" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">AQUAMAN - 2</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="img/f5.png" alt="" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">FORREST GUMP</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-regular fa-circle-play"></i>
+                  <i class="fa-regular fa-thumbs-up"></i>
+                  <i class="fa-regular fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="fa-solid fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <!-- New Movie List End -->
+      <!--? Movie List End -->
+    </div>
+    <!--! Content End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
